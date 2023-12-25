@@ -9,9 +9,9 @@ function App() {
     register,
     handleSubmit,
     watch,
-    formState: { errors },
+    formState: { errors }
   } = useForm();
-  const onSubmit = (data) => {
+  const onSubmit = (data: any) => {
     console.log(data);
   }; // your form submit function which will invoke after successful validation
   const [data, setData] = useState();
@@ -28,7 +28,7 @@ function App() {
       })
       .then((data) => {
         // Handle the data
-        console.log('Data:', data);
+        // console.log('Data:', data);
         setData(data);
       })
       .catch((error) => {
