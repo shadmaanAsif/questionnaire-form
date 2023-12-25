@@ -1,0 +1,56 @@
+{
+  "radioFields": [
+    {
+      "question": " Radio question 1",
+      "id": 1,
+      "options": [
+        {
+          "value": "option1",
+          "id": 1
+        },
+        {
+          "value": "option2",
+          "id": 2
+        },
+        {
+          "value": "option3",
+          "id": 3
+        },
+        {
+          "value": "option4",
+          "id": 4
+        }
+      ],
+      "answer": {
+        "value": "option3",
+        "id": 3
+      }
+    },
+    {
+      "question": " Radio question 2",
+      "id": 2,
+      "options": [
+        {
+          "value": "option1",
+          "id": 1
+        },
+        {
+          "value": "option2",
+          "id": 2
+        },
+        {
+          "value": "option3",
+          "id": 3
+        },
+        {
+          "value": "option4",
+          "id": 4
+        }
+      ],
+      "answer": {
+        "value": "option3",
+        "id": 3
+      }
+    }
+  ]
+}
