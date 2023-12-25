@@ -12,7 +12,7 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
-import mockData from './mock.json';
+import mockData from './formId/mock.json';
 
 export type FormValues = {
   //   Native: string;
